@@ -1,0 +1,53 @@
+Copy name to clipboard
+	V1.0.1
+
+
+What is it?
+	Copy name to clipboard is a Tracker add-on to copy the names of the
+	selected files and folders (together with their paths) into the clipboard.
+
+
+How to un/install?
+	To install the add-on, drag&drop the add-on "Copy name to clipboard-C"
+	onto the folder "Drop here to install".
+
+	Tip:	Change the the suffix "C" of the add-on's name to change the
+		shortcut from ALT+OPT+C to some other letter.		
+
+	To uninstall, just doubleclick the "Drop here to install" folder and remove
+	the add-on from there.
+
+
+How does it work?
+	Select files and folders in a Tracker window and invoke the Tracker add-on.
+	Now paste the contents of the clipboard into a text editor, for example.
+
+	If the file name contains spaces, it is surrounded by quotation marks.
+
+	The following modifier key features won't work when invoking the add-on
+	with the keyboard shortcut, use the mouse instead:
+
+	Holding SHIFT while calling this add-on, copies the file names without paths.
+	Holding CONTROL while calling this add-on, prints one file name per line.
+
+
+Thanks!
+	Thanks to Werner Freytag for the original code and releasing it under a
+	MIT license. Visit his website at http://www.pecora.de/.
+
+
+Contact!
+	If you have bugs or enhancements to report, please use the issue tracker
+	at http://dev.osdrawer.net/projects/copynametoclipboard
+
+
+History!
+	1.0.0 - 03-11-2009
+	* Initial commit to OSDrawer.
+
+	1.0.1 - 02-17-2012
+	* Make code compilable under Haiku.
+	* Create a Paladin project instead of BeIDE projects.
+	* Create a vector icon used in a rdef file instead of rsrc.
+	* Installation via drag&drop.
+	* Added CONTROL modifier to print one file name per line.
